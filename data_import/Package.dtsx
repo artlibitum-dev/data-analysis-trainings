@@ -11,8 +11,8 @@
   DTS:LocaleID="1062"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="18"
-  DTS:VersionGUID="{532FBB94-9E15-4469-B988-2F10F4D8EFC1}">
+  DTS:VersionBuild="24"
+  DTS:VersionGUID="{7BCD4983-FDFB-4338-8B0A-5B73AAC13EAD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -42,7 +42,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Arturs\Downloads\dataAnalysis\dataDictionary\ppp-data-dictionary.csv">
+          DTS:ConnectionString="%userprofile%\Downloads\dataAnalysis\dataDictionary\ppp-data-dictionary.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -51,7 +51,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Field Name"
-              DTS:DTSID="{44692F3D-0A3C-40F0-85E1-670526F675E6}"
+              DTS:DTSID="{11A31B36-E4FC-493B-B99D-269F4344527B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -60,7 +60,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Field Description"
-              DTS:DTSID="{A331CE08-0100-466A-BB60-5F67DF21D79A}"
+              DTS:DTSID="{23BB0E18-4058-4C17-97ED-43CCB65C4CD8}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -80,7 +80,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Arturs\Downloads\dataAnalysis\NAICS\SBA_Table_of_Size_Standards_Effective.csv">
+          DTS:ConnectionString="%userprofile%\Downloads\dataAnalysis\NAICS\SBA_Table_of_Size_Standards_Effective.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -89,7 +89,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NAICS Codes"
-              DTS:DTSID="{40BFA605-6278-4F68-B124-E51F88C23EAE}"
+              DTS:DTSID="{CE203E66-2204-4DB4-83CA-A590E01BD5D6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -98,7 +98,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NAICS Industry Description"
-              DTS:DTSID="{2B5BB17F-1084-4675-99B0-6F5F2A66D275}"
+              DTS:DTSID="{11425081-1A02-4F0D-AE13-87AD90B1CAC1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -107,7 +107,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Size Standards  in millions of dollars"
-              DTS:DTSID="{216E1825-7917-478B-8563-2C0A8AF7C336}"
+              DTS:DTSID="{E7FEF4CB-FB48-4A1A-813F-5087370D0C19}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -116,7 +116,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Size standards in number of employees"
-              DTS:DTSID="{91CA895D-0728-464E-9325-2DCCDEF2331A}"
+              DTS:DTSID="{67CBE133-9966-4809-AED2-431DC2AD0125}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -125,7 +125,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Footnotes"
-              DTS:DTSID="{416E0FE5-915D-4622-ABDC-98A4257FEB77}"
+              DTS:DTSID="{67DA5370-A86E-4466-A1C3-32648D8BB51F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -134,7 +134,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 5"
-              DTS:DTSID="{7C87DD75-1520-43FF-97DE-94D8B4B71FC3}"
+              DTS:DTSID="{01D5ECCA-DA17-471E-9DD2-9FEA878BC440}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -175,7 +175,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="LoanNumber"
-              DTS:DTSID="{95AC9FAB-0B39-4D02-8291-B48F499C0036}"
+              DTS:DTSID="{0CB8451D-EA6E-4564-B91E-F4322FC60D6C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -183,7 +183,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="DateApproved"
-              DTS:DTSID="{E69E23C0-B504-4683-BE5B-13A26D2A22D8}"
+              DTS:DTSID="{B55D5A41-A89A-4033-8753-6C5B090D318F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -191,7 +191,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="SBAOfficeCode"
-              DTS:DTSID="{BD9D7227-D8D3-48BF-8E37-BB7CDD3BB5CF}"
+              DTS:DTSID="{1687A917-B93F-4596-AB43-78B30FF72E64}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -200,7 +200,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ProcessingMethod"
-              DTS:DTSID="{550DCAAB-470D-409E-ACA4-6893DFCE1F92}"
+              DTS:DTSID="{3A0386B9-27BE-4FBE-9C57-F8285FE78B39}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -209,7 +209,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BorrowerName"
-              DTS:DTSID="{4FA42F2D-CF3D-4A27-A86E-37823282B89D}"
+              DTS:DTSID="{3089456A-35BA-4690-B077-71F69F8671B1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -218,7 +218,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BorrowerAddress"
-              DTS:DTSID="{2832A5EB-46A0-41F3-95B5-0F3A38497774}"
+              DTS:DTSID="{B5ACFFA1-7E7A-4912-B696-4D9B59D4AC1D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -227,7 +227,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BorrowerCity"
-              DTS:DTSID="{A5395BF1-0CC0-43C3-8DAA-C379A2D9A0CC}"
+              DTS:DTSID="{66E276B0-439D-46CB-89AA-B88EF366CD57}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -236,7 +236,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BorrowerState"
-              DTS:DTSID="{582E1049-9540-4E0B-BB2B-B275AAA42080}"
+              DTS:DTSID="{CAFDB2D6-9408-4E57-86D2-980F235750F6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -245,16 +245,15 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BorrowerZip"
-              DTS:DTSID="{259262B7-4B15-43C8-9099-A3A9F8D6302F}"
+              DTS:DTSID="{2F4A8C96-3D6F-4943-A0A7-F8B629290DA4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="10"
-              DTS:DataType="129"
+              DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="LoanStatusDate"
-              DTS:DTSID="{24422F9E-5FE8-437F-B68E-5F0A2ADE8C6C}"
+              DTS:DTSID="{34692729-CF03-4513-A68C-61E85D80DFA9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -263,7 +262,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LoanStatus"
-              DTS:DTSID="{3444D6E4-2FEA-406F-8278-513AF26575CD}"
+              DTS:DTSID="{77DE440A-DC01-48ED-936F-1952073A6F24}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -271,7 +270,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="Term"
-              DTS:DTSID="{0633BE05-05CB-4615-BF20-86EFCAA6612C}"
+              DTS:DTSID="{D36A3F83-7D62-49E7-99BB-B599872FFC01}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -279,25 +278,27 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="SBAGuarantyPercentage"
-              DTS:DTSID="{D74D2A48-8AA0-4232-AED3-03CA966674B0}"
+              DTS:DTSID="{E2373201-4FD7-4591-B76E-B93F8D68FCF7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="10"
-              DTS:DataType="129"
+              DTS:DataType="131"
+              DTS:DataPrecision="25"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="InitialApprovalAmount"
-              DTS:DTSID="{9B3787E8-08A5-4484-956E-CB588F6BAD89}"
+              DTS:DTSID="{F5D80C12-1FCA-4858-BD4D-DE54FEE35AEB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="10"
-              DTS:DataType="129"
+              DTS:DataType="131"
+              DTS:DataPrecision="25"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrentApprovalAmount"
-              DTS:DTSID="{BEE89179-FB22-4FD3-93DE-790534A73253}"
+              DTS:DTSID="{350485F9-B986-4693-A904-02DC118496B0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -305,7 +306,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="UndisbursedAmount"
-              DTS:DTSID="{DEE1FE2F-C7B3-4A7D-ABE3-7732B5818CE1}"
+              DTS:DTSID="{40F51EB9-AA59-41C6-AD27-FE826D9A98B5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -314,7 +315,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FranchiseName"
-              DTS:DTSID="{ED84D4AB-554F-4094-A2CC-5AB47C754935}"
+              DTS:DTSID="{CCDDD6B1-8917-4249-9ED0-09E8DD313F76}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -322,7 +323,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ServicingLenderLocationID"
-              DTS:DTSID="{87FBED3F-FBFD-4E17-802F-89E355F216B8}"
+              DTS:DTSID="{676FF62C-E3EB-4960-AFD6-E705E9141467}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -331,7 +332,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ServicingLenderName"
-              DTS:DTSID="{13AC0921-2323-4534-8E91-45355758FD7C}"
+              DTS:DTSID="{068D59B9-2158-4FD8-A5C2-D34C719B5BEB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -340,7 +341,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ServicingLenderAddress"
-              DTS:DTSID="{D3CCD72B-156B-416A-8278-4900C4866AB8}"
+              DTS:DTSID="{A6A22A07-D0BD-48AF-9A35-B1E38CC51292}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -349,7 +350,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ServicingLenderCity"
-              DTS:DTSID="{3146E243-707C-4F2E-98C7-3EDFCBB7B392}"
+              DTS:DTSID="{4FD9DF50-B932-4DC2-82A5-C1728A416837}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -358,7 +359,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ServicingLenderState"
-              DTS:DTSID="{EC90A3C1-6271-4835-9A5A-1C2B7AFDCB33}"
+              DTS:DTSID="{96F812BB-5FC2-4AE2-A5F3-04EDA8EF5A63}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -367,7 +368,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ServicingLenderZip"
-              DTS:DTSID="{540356EA-952E-4910-BB3A-0D5506F5B352}"
+              DTS:DTSID="{572BA58B-069F-45C9-9E97-E368CCD341CC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -376,7 +377,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="RuralUrbanIndicator"
-              DTS:DTSID="{6939AC6D-8D5B-4C24-B373-C8F742F2DCBB}"
+              DTS:DTSID="{B4FA5977-AE5C-41B7-A6D3-EC081F3F023D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -385,7 +386,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="HubzoneIndicator"
-              DTS:DTSID="{1918561C-CEBC-4C4B-8D4E-31703301F3DC}"
+              DTS:DTSID="{8FB91501-3428-4213-8DA3-47698CD893DE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -394,7 +395,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LMIIndicator"
-              DTS:DTSID="{A649527A-D047-4B0E-A545-0BA7D8160513}"
+              DTS:DTSID="{0EEBFEDA-E16B-4C40-BF99-19AF8F32FC7F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -403,7 +404,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BusinessAgeDescription"
-              DTS:DTSID="{E451A05D-2D47-4F04-AC0D-8512CBAE5D5C}"
+              DTS:DTSID="{4ED70048-2E46-4A1E-AF25-40E7D2CD5ECC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -412,7 +413,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ProjectCity"
-              DTS:DTSID="{69CB2E66-B995-40AE-9CF0-E9AE0FDC6D04}"
+              DTS:DTSID="{0CBB46DC-7816-4F37-ABED-2ED64F76D50A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -421,7 +422,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ProjectCountyName"
-              DTS:DTSID="{7DE04FCC-EB10-42E6-B1E6-631F9DB53EB4}"
+              DTS:DTSID="{B4CB44F7-8027-408A-AD08-7E60C794F1D2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -430,7 +431,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ProjectState"
-              DTS:DTSID="{23E32E55-7305-4F0A-A81D-98D718B1AD44}"
+              DTS:DTSID="{2B062EF8-D47E-48A6-843A-CC8BEF3D4FA3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -439,7 +440,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ProjectZip"
-              DTS:DTSID="{61389F26-4A03-4E36-9A87-F637CE5C07CF}"
+              DTS:DTSID="{1970064E-CCB3-4D7F-86E7-6A1A0FAFD493}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -448,7 +449,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CD"
-              DTS:DTSID="{87D92F41-EE40-4AE5-A5C3-C7288BF3F44C}"
+              DTS:DTSID="{3597FBC6-F9D2-4CA2-A7DB-2E669A5F08E0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -456,7 +457,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="JobsReported"
-              DTS:DTSID="{579F85AC-910C-4402-9377-EB2606C67E98}"
+              DTS:DTSID="{03572DBC-2CD0-420A-ACF2-6BB92B987AA4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -464,7 +465,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="NAICSCode"
-              DTS:DTSID="{037AD90A-9315-4803-8704-D5836ED5B481}"
+              DTS:DTSID="{650C0C38-D04E-4340-9637-D2A9C4926565}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -473,7 +474,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Race"
-              DTS:DTSID="{7D8C4D19-F3BA-412B-BEC3-69273A9F4C62}"
+              DTS:DTSID="{6F3F16B5-D458-47FF-A799-4D24CAF3A6ED}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -482,7 +483,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Ethnicity"
-              DTS:DTSID="{01337BDF-6B42-4251-A18D-B594B53538E9}"
+              DTS:DTSID="{5FFFED75-5A56-4F41-A101-0438D6C27AB7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -491,7 +492,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="UTILITIES_PROCEED"
-              DTS:DTSID="{15B3D0EA-59F2-4DA5-87D4-E3B496AD3871}"
+              DTS:DTSID="{0640C929-E762-4B36-9410-948DA6CF7AC2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -500,7 +501,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PAYROLL_PROCEED"
-              DTS:DTSID="{9E027DFB-CC19-47EF-9421-DFC0A960A0FF}"
+              DTS:DTSID="{3034AAC7-19B2-415A-AE14-7AF4A7C890B3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -509,7 +510,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MORTGAGE_INTEREST_PROCEED"
-              DTS:DTSID="{357BAD28-C393-485A-9732-671456521571}"
+              DTS:DTSID="{34513819-F7E1-4CC1-93B0-0BF28D8AEE6A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -518,7 +519,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="RENT_PROCEED"
-              DTS:DTSID="{D5E596ED-0395-4632-B7BB-0773AA77A882}"
+              DTS:DTSID="{A10D8039-6781-4641-A577-DED78D487E77}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -526,7 +527,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="REFINANCE_EIDL_PROCEED"
-              DTS:DTSID="{80015F2F-4676-462D-8776-F45F17A48A84}"
+              DTS:DTSID="{7F09F756-CE2B-4081-8876-DA49CE5EBD98}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -535,7 +536,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="HEALTH_CARE_PROCEED"
-              DTS:DTSID="{547193E6-CC2C-4D88-9A60-5793BD7108FA}"
+              DTS:DTSID="{B5830767-242E-4803-A29C-45EF0EB575AC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -544,7 +545,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DEBT_INTEREST_PROCEED"
-              DTS:DTSID="{3EAD8BBC-1497-4984-BB50-55A5A067FB73}"
+              DTS:DTSID="{B3DA624A-EA51-4BEA-9D1A-8F4E6DA474D0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -553,7 +554,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BusinessType"
-              DTS:DTSID="{3766FE21-6C20-43EC-91DA-366C470FB74D}"
+              DTS:DTSID="{135A03A8-865C-4E6D-AA61-2D154A2151A2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -561,7 +562,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="OriginatingLenderLocationID"
-              DTS:DTSID="{504C4D47-29F4-4A9B-927F-31258F9FCE27}"
+              DTS:DTSID="{4D192A8D-56F4-41EB-9DAC-88A339CB2453}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -570,7 +571,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="OriginatingLender"
-              DTS:DTSID="{DE94C320-2F01-4FE1-97E9-4A638C123152}"
+              DTS:DTSID="{6276904B-9F2A-44DC-8B4C-CAE88312E31E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -579,7 +580,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="OriginatingLenderCity"
-              DTS:DTSID="{E3AFFCFF-B4A8-4D0E-A6E1-B707DD8227F8}"
+              DTS:DTSID="{01432D95-F952-4143-81DB-1002B8EE589D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -588,7 +589,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="OriginatingLenderState"
-              DTS:DTSID="{70967E09-2635-443A-8F7B-50DE9F2342EC}"
+              DTS:DTSID="{4BF60D34-913E-44BF-BD74-5B5AE0B0F00A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -597,7 +598,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Gender"
-              DTS:DTSID="{F8D3AC51-CE7D-434D-8B04-FFECB28AE0C7}"
+              DTS:DTSID="{844B3F6B-D5E0-49A0-9CD9-6609C06CEDFB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -606,7 +607,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Veteran"
-              DTS:DTSID="{27A152E3-F615-4329-B7A7-CD4BAD897D57}"
+              DTS:DTSID="{3296244B-1228-441F-A80C-B640A7637346}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -615,25 +616,25 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NonProfit"
-              DTS:DTSID="{00CD50EC-FB3B-416A-9820-CA1FD2F3A4DE}"
+              DTS:DTSID="{F0FAD411-C3F4-41A5-A6DF-3440D32579A2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="10"
-              DTS:DataType="129"
+              DTS:DataType="131"
+              DTS:DataPrecision="25"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="ForgivenessAmount"
-              DTS:DTSID="{6B31B95D-55F2-46EA-B388-AA5F0230C199}"
+              DTS:DTSID="{8C796B0D-4958-4EFF-A4E8-0917B413FEDE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="10"
-              DTS:DataType="129"
+              DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="ForgivenessDate"
-              DTS:DTSID="{FF991E80-B817-485D-B372-F5F4D9B423FC}"
+              DTS:DTSID="{8917E157-4D32-4EE0-9AB1-DF598E6D21EE}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1281,12 +1282,10 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[LoanStatusDate]"
-                          codePage="1252"
-                          dataType="str"
+                          dataType="date"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="IgnoreFailure"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[LoanStatusDate]"
-                          length="10"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[LoanStatusDate]"
                           name="LoanStatusDate"
                           truncationRowDisposition="IgnoreFailure">
@@ -1365,14 +1364,14 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[InitialApprovalAmount]"
-                          codePage="1252"
-                          dataType="str"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="IgnoreFailure"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[InitialApprovalAmount]"
-                          length="10"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[InitialApprovalAmount]"
                           name="InitialApprovalAmount"
+                          precision="25"
+                          scale="2"
                           truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
@@ -1387,14 +1386,14 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[CurrentApprovalAmount]"
-                          codePage="1252"
-                          dataType="str"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="IgnoreFailure"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[CurrentApprovalAmount]"
-                          length="10"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[CurrentApprovalAmount]"
                           name="CurrentApprovalAmount"
+                          precision="25"
+                          scale="2"
                           truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
@@ -2191,14 +2190,14 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[ForgivenessAmount]"
-                          codePage="1252"
-                          dataType="str"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="IgnoreFailure"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[ForgivenessAmount]"
-                          length="10"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[ForgivenessAmount]"
                           name="ForgivenessAmount"
+                          precision="25"
+                          scale="2"
                           truncationRowDisposition="IgnoreFailure">
                           <properties>
                             <property
@@ -2213,12 +2212,10 @@
                         </outputColumn>
                         <outputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[ForgivenessDate]"
-                          codePage="1252"
-                          dataType="str"
+                          dataType="date"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="IgnoreFailure"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[ForgivenessDate]"
-                          length="10"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[ForgivenessDate]"
                           name="ForgivenessDate"
                           truncationRowDisposition="IgnoreFailure">
@@ -2286,9 +2283,7 @@
                           name="BorrowerZip" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[LoanStatusDate]"
-                          codePage="1252"
-                          dataType="str"
-                          length="10"
+                          dataType="date"
                           name="LoanStatusDate" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[LoanStatus]"
@@ -2306,16 +2301,16 @@
                           name="SBAGuarantyPercentage" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[InitialApprovalAmount]"
-                          codePage="1252"
-                          dataType="str"
-                          length="10"
-                          name="InitialApprovalAmount" />
+                          dataType="numeric"
+                          name="InitialApprovalAmount"
+                          precision="25"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[CurrentApprovalAmount]"
-                          codePage="1252"
-                          dataType="str"
-                          length="10"
-                          name="CurrentApprovalAmount" />
+                          dataType="numeric"
+                          name="CurrentApprovalAmount"
+                          precision="25"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[UndisbursedAmount]"
                           dataType="i1"
@@ -2524,15 +2519,13 @@
                           name="NonProfit" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[ForgivenessAmount]"
-                          codePage="1252"
-                          dataType="str"
-                          length="10"
-                          name="ForgivenessAmount" />
+                          dataType="numeric"
+                          name="ForgivenessAmount"
+                          precision="25"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].ExternalColumns[ForgivenessDate]"
-                          codePage="1252"
-                          dataType="str"
-                          length="10"
+                          dataType="date"
                           name="ForgivenessDate" />
                       </externalMetadataColumns>
                     </output>
@@ -2705,9 +2698,7 @@
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[BorrowerZip]" />
                         <inputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LoanStatusDate]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="10"
+                          cachedDataType="date"
                           cachedName="LoanStatusDate"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoanStatusDate]"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[LoanStatusDate]" />
@@ -2733,18 +2724,18 @@
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[SBAGuarantyPercentage]" />
                         <inputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[InitialApprovalAmount]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="10"
+                          cachedDataType="numeric"
                           cachedName="InitialApprovalAmount"
+                          cachedPrecision="25"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[InitialApprovalAmount]"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[InitialApprovalAmount]" />
                         <inputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CurrentApprovalAmount]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="10"
+                          cachedDataType="numeric"
                           cachedName="CurrentApprovalAmount"
+                          cachedPrecision="25"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrentApprovalAmount]"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[CurrentApprovalAmount]" />
                         <inputColumn
@@ -3027,17 +3018,15 @@
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[NonProfit]" />
                         <inputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ForgivenessAmount]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="10"
+                          cachedDataType="numeric"
                           cachedName="ForgivenessAmount"
+                          cachedPrecision="25"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ForgivenessAmount]"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[ForgivenessAmount]" />
                         <inputColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ForgivenessDate]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="10"
+                          cachedDataType="date"
                           cachedName="ForgivenessDate"
                           externalMetadataColumnId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ForgivenessDate]"
                           lineageId="Package\Foreach Loop Container\Data Flow Task\import_sba_data.Outputs[Flat File Source Output].Columns[ForgivenessDate]" />
@@ -3102,9 +3091,7 @@
                           name="BorrowerZip" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoanStatusDate]"
-                          codePage="1252"
-                          dataType="str"
-                          length="10"
+                          dataType="dbTimeStamp"
                           name="LoanStatusDate" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoanStatus]"
@@ -3122,16 +3109,16 @@
                           name="SBAGuarantyPercentage" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[InitialApprovalAmount]"
-                          codePage="1252"
-                          dataType="str"
-                          length="10"
-                          name="InitialApprovalAmount" />
+                          dataType="numeric"
+                          name="InitialApprovalAmount"
+                          precision="25"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrentApprovalAmount]"
-                          codePage="1252"
-                          dataType="str"
-                          length="10"
-                          name="CurrentApprovalAmount" />
+                          dataType="numeric"
+                          name="CurrentApprovalAmount"
+                          precision="25"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[UndisbursedAmount]"
                           dataType="i2"
@@ -3340,15 +3327,13 @@
                           name="NonProfit" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ForgivenessAmount]"
-                          codePage="1252"
-                          dataType="str"
-                          length="10"
-                          name="ForgivenessAmount" />
+                          dataType="numeric"
+                          name="ForgivenessAmount"
+                          precision="25"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ForgivenessDate]"
-                          codePage="1252"
-                          dataType="str"
-                          length="10"
+                          dataType="dbTimeStamp"
                           name="ForgivenessDate" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FileName]"
@@ -3904,7 +3889,7 @@
     design-time-name="Package\data_dictionary">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\data_dictionary\OLE DB Destination"
@@ -3932,7 +3917,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -3955,7 +3942,7 @@
     design-time-name="Package\Foreach Loop Container\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="156,41.6"
           Id="Package\Foreach Loop Container\Data Flow Task\import_sba_data"
@@ -3964,6 +3951,10 @@
           Size="152.8,41.6"
           Id="Package\Foreach Loop Container\Data Flow Task\Derived Column"
           TopLeft="238,221" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination"
+          TopLeft="313,337" />
         <EdgeLayout
           Id="Package\Foreach Loop Container\Data Flow Task.Paths[Flat File Source Output]"
           TopLeft="333,120.6">
@@ -3995,13 +3986,11 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-40.0059895833333,55.2,61.4119791666667,9.568359375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination"
-          TopLeft="313,337" />
         <EdgeLayout
           Id="Package\Foreach Loop Container\Data Flow Task.Paths[Derived Column Output]"
           TopLeft="314.4,262.6">
@@ -4033,7 +4022,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="11.3940104166667,42.2,61.4119791666667,9.568359375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4056,7 +4047,7 @@
     design-time-name="Package\NAICS">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="151.2,41.6"
           Id="Package\NAICS\Flat File Source"
@@ -4096,7 +4087,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
