@@ -1,5 +1,7 @@
 # data-analysis-trainings
-follow up Data Analyst Projects on Youtube by Angelina Frimpong (https://www.youtube.com/channel/UC0HS0EUIgPVrqIbde-2f1GQ)
+follow up Data Analyst Projects by Angelina Frimpong 
+Youtube https://www.youtube.com/channel/UC0HS0EUIgPVrqIbde-2f1GQ
+Git https://github.com/AllThingsDataWithAngelina/Data-Analyst-Projects/blob/main/Exploring_Data_SQL_Part1.sql
 
 DATA:
 SBA Open Data: 
